@@ -66,7 +66,7 @@ license: Apache License 2.0
 
 ## 🛠 架构图
 
-![架构图](./assets/SeaSageAI项目架构图.png)
+![架构图](./assets/SeaSageAI项目架构.png)
 
 ## 📺️ 讲解视频
 
