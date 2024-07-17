@@ -25,13 +25,13 @@ license: Apache License 2.0
 
 ## 📢 介绍
 
-**SeaSageAI —— 海军专家大模型** 是一个能够根据给定的商品特点从激发用户购买意愿角度出发进行商品解说的卖货主播大模型。以其独特的智能魅力，将彻底改变您的购物体验。该模型能深度理解商品特点，以生动、精准的语言为商品量身打造解说词，让每一件商品都焕发出诱人的光彩。无论是细节之处，还是整体效果，都能通过其细腻、独到的解说，激发用户的购买欲望。
+**SeaSageAI —— 海军专家大模型** 是一个学习整合了大量航海军事领域相关知识的领域专家，他的核心能力在于对海军军事舰艇的分析和认知，通过搜集网络上大量的军情新闻和报导信息，结合领域专家对军事舰艇的判读方法和流程，利用GPT4o等先进语言模型生成军事舰艇领域的合成数据，用于InternLM-chat-7b模型微调。除此之外，对网络上庞大的军事信息进行搜集和整理，作为RAG的依据，并辅以改进的RAG算法帮助模型找到正确的参考段落。
 
-模型用 [xtuner](https://github.com/InternLM/xtuner) 在 [InternLM2](https://github.com/InternLM/InternLM) 的基础上指令微调而来，部署集成了 LMDeploy **加速推理**🚀，支持 **ASR 语音生成文字** 🎙️，支持 **RAG 检索增强生成**📚做到可以随时更新说明书指导主播生成文案，支持 **Agent 通过网络查询快递信息** 🌐，还加入带有感情的 **TTS 文字转语音**🔊生成，最后还会**生成主播数字人视频**🦸，让主播不止于文字介绍。
+模型用 [xtuner](https://github.com/InternLM/xtuner) 在 [InternLM2](https://github.com/InternLM/InternLM) 的基础上指令微调而来，部署集成了 LMDeploy **加速推理**🚀，支持 **RAG 检索增强生成**📚做到可以随时更新各国舰艇信息和公开的军事情报，支持 **Agent 通过互联网搜集公开的军情信息** 🌐，借助专家的视角，让模型对军事舰艇形成相当程度的上的判读能力，虽然只能针对文本进行判读，而非图像，但在某种程度上可以从NLP的视角帮助热爱军情信息的小伙伴更加深入的了解各国海军的信息。
 
 **功能点总结：**
 
-- 📜 军事舰艇相关信息一键生成
+- 📜 军事舰艇相关部件细节信息一键生成
 - 🚀 KV cache + Turbomind 推理加速
 - 📚 RAG 检索增强生成
 - 🌐 Agent 借助互联网查询实时军事信息
@@ -62,30 +62,17 @@ license: Apache License 2.0
 
 ## ⚙ Model Zoo
 
-| 模型                            | 基座             | 数据量           | ModelScope(HF)                                                                          | OpenXLab(HF)                                                                                                                                                            |
-| ------------------------------- | ---------------- | ---------------- | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| streamer-sales-lelemiao-7b      | interlm2-chat-7b | about 40w Toeken | [ModelScope](https://modelscope.cn/models/HinGwenWoong/streamer-sales-lelemiao-7b)      | [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/header/openxlab_models.svg)](https://openxlab.org.cn/models/detail/HinGwenWong/streamer-sales-lelemiao--7b/)    |
-| streamer-sales-lelemiao-7b-4bit | interlm2-chat-7b | about 40w Toeken | [ModelScope](https://modelscope.cn/models/HinGwenWoong/streamer-sales-lelemiao-7b-4bit) | [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/header/openxlab_models.svg)](https://openxlab.org.cn/models/detail/HinGwenWong/streamer-sales-lelemiao-7b-4bit) |
 
 
 
 ## 🧱 开发计划
 
-- [x] 生成多个产品数据集
-- [x] 根据产品生成话术，每个都是5个往来的对话
-- [ ] 支持多种角色
-  - [x] 乐乐喵——可爱萝莉，
-  - [ ] 更多角色正在规划中，敬请期待！
-- [x] 模型推理加速
-- [x] 接入 RAG 解读产品文档
-- [x] 支持上传新商品并生成新 RAG 数据库
-- [x] TTS 生成语音
-- [x] 数字人
-- [x] 接入 Agent，支持订单情况、收货时间等实时信息
-- [x] ASR
-- [x] 前后端分离解耦
-- [ ] 多模态
-
+- [] 生成多个军事舰艇判读文本数据集
+- [] 模型推理加速
+- [] 搜集并整理各大新闻和军情网站的公开军事信息
+- [] 将整理好的军情信息接入向量数据库，实现RAG
+- [] 支持上传新文档并生成新的 RAG 数据库
+- [] 接入 Agent ，实现实时的军情信息检索和访问更新
 
 ## 💕 致谢
 
