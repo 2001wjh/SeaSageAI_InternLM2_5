@@ -22,14 +22,6 @@ license: Apache License 2.0
     <img src="assets/logo.png" alt="Logo" width="50%">
   </a>
 
-<h3 align="center">Streamer-Sales</h3>
-  <p align="center">
-    <br />
-    <a href="https://openxlab.org.cn/apps/detail/HinGwenWong/Streamer-Sales">查看Demo</a>
-    ·
-    <a href="https://github.com/PeterH0323/Streamer-Sales/issues">报告Bug & 提出新特性</a>
-  </p>
-</p>
 
 ## 📢 介绍
 
@@ -39,21 +31,11 @@ license: Apache License 2.0
 
 **功能点总结：**
 
-- 📜 主播文案一键生成
+- 📜 军事舰艇相关信息一键生成
 - 🚀 KV cache + Turbomind 推理加速
 - 📚 RAG 检索增强生成
-- 🎙️ ASR 语音转文字输入
-- 🔊 TTS 文字转语音输出
-- 🦸 数字人解说视频生成
-- 🌐 Agent 使用网络查询实时快递等信息
+- 🌐 Agent 借助互联网查询实时军事信息
 
-无论是线上直播销售，还是线下门店推广，这款卖货主播大模型都能成为您不可或缺的得力助手。它不仅能够提升销售效率，还能增强用户体验，为您的品牌形象加分。
-
-后续会在该模型的基础上新增根据用户的反馈和行为，实时调整解说策略，确保每一次互动都能带来最佳的购物效果。
-
-让我们的卖货主播大模型成为您销售路上的得力助手，共同开创更美好的商业未来。
-
-**文档最后有微信群，欢迎加入一起探讨更多的可能！** 🎉
 
 **开源不易，如果本项目帮到大家，可以右上角帮我点个 star~ ⭐⭐ , 您的 star ⭐是我们最大的鼓励，谢谢各位！**  
 
