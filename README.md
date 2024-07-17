@@ -19,7 +19,7 @@ license: Apache License 2.0
 
 <p align="center">
   <a href="https://github.com/2001wjh/SeaSageAI_InternLM2/">
-    <img src="assets/logo.png" alt="Logo" width="30%">
+    <img src="assets/logo.png" alt="Logo" width="50%">
   </a>
 
 <h3 align="center">Streamer-Sales</h3>
