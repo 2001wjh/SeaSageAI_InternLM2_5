@@ -81,7 +81,7 @@ license: Apache License 2.0
 - [LMDeploy](https://github.com/InternLM/LMDeploy)
 - [lagent](https://github.com/InternLM/lagent)
 
-感谢上海人工智能实验室推出的书生·浦语大模型实战营，为我们的项目提供宝贵的技术指导和强大的算力支持。
+感谢上海人工智能实验室推出的书生·浦语大模型实战营，为我的项目提供宝贵的技术指导和强大的算力支持。
 
 ## 🎫 开源许可证
 
@@ -89,7 +89,7 @@ license: Apache License 2.0
 
 ## 🔗 引用
 
-如果本项目对您的工作有所帮助，请使用以下格式引用：
+如果本项目对您有所帮助，请使用以下格式引用：
 
 ```bibtex
 @misc{SeaSageAI_InternLM2,
