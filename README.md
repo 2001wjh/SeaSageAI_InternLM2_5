@@ -94,7 +94,7 @@ license: Apache License 2.0
 ```bibtex
 @misc{SeaSageAI_InternLM2,
     title={SeaSageAI_InternLM},
-    author={SeaSageAI_InternLM},
+    author={wjh2001},
     url={https://github.com/wjh2001/SeaSageAI_InternLM},
     year={2024}
 }
