@@ -14,10 +14,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM  # isort: skip
 
 logger = logging.get_logger(__name__)
 
-
-# model_name_or_path = "/root/InternLM/XTuner/Shanghai_AI_Laboratory/internlm2-chat-1_8b"
-# model_name_or_path = "/root/InternLM/XTuner/merged"
-model_name_or_path = "/root/SeaSageAI/XTuner/Shanghai_AI_Laboratory/internlm2-chat-20b"
+model_name_or_path = "./model/Seasage_InternLM2_5-20b"
 
 @dataclass
 class GenerationConfig:
@@ -223,7 +220,7 @@ def main():
 
 
     # st.title('InternLM2-Chat-1.8B')
-    st.title('InternLM2-Chat-20B')
+    st.title('Seasage_InternLM2_5-20b')
 
     generation_config = prepare_generation_config()
 
