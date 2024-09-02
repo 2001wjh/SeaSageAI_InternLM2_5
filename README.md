@@ -110,9 +110,7 @@ license: Apache License 2.0
 
 ## 📺️ 讲解视频
 
-
-
-[![航海王——海军军迷大模型]](https://www.bilibili.com/video/BV1ZJ4m1w75P](https://www.bilibili.com/video/BV1qHnZeqE2e/?vd_source=e173ffc7ac5e03afa1699e1bb43d2a5a)
+[![Bilibili Video](https://i0.hdslb.com/bfs/archive/thumbnail.jpg)](https://www.bilibili.com/video/BV1qHnZeqE2e/?vd_source=e173ffc7ac5e03afa1699e1bb43d2a5a)
 
 干货满满，欢迎一键三连（疯狂暗示🍺）
 
