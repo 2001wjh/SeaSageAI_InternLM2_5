@@ -3,7 +3,7 @@
 language:
 - zh
 tags:
-- SeaSageAI_InternLM2
+- SeaSageAI_InternLM2_5
 - internlm2
 frameworks:
 - pytorch
@@ -18,7 +18,7 @@ license: Apache License 2.0
 <!-- PROJECT LOGO -->
 
 <p align="center">
-  <a href="https://github.com/2001wjh/SeaSageAI_InternLM2/">
+  <a href="https://github.com/2001wjh/SeaSageAI_InternLM2_5/">
     <img src="assets/logo.png" alt="Logo" width="50%">
   </a>
 
