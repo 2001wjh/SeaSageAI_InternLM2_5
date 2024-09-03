@@ -87,7 +87,7 @@ license: Apache License 2.0
 
 | 模型                            | 基座             | 数据量           | ModelScope(HF)                                                                          | OpenXLab(HF)                                                                                                                                                            |
 | ------------------------------- | ---------------- | ---------------- | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SeaSageAI-InternLM2.5-20b      | interlm2.5-chat-20b | about 40w Toeken | [ModelScope](https://modelscope.cn/models/HinGwenWoong/streamer-sales-lelemiao-7b)      | [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/header/openxlab_models.svg)](https://openxlab.org.cn/models/detail/HinGwenWong/streamer-sales-lelemiao--7b/)    |
+| SeaSageAI-InternLM2.5-20b      | interlm2.5-chat-20b | about 40w Toeken | [ModelScope]()      | [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/header/openxlab_models.svg)](https://openxlab.org.cn/models/detail/wjh2001/SeaSageAI_InternLM2)    |
 
 
 
