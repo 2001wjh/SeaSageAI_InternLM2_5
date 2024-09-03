@@ -12,7 +12,7 @@ tasks:
 license: Apache License 2.0
 ---
 -->
-# SeaSageAI_InternLM2
+# SeaSageAI_InternLM2_5
 
 <br />
 <!-- PROJECT LOGO -->
