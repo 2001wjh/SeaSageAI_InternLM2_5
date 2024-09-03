@@ -119,8 +119,8 @@ license: Apache License 2.0
 如果本项目对您有所帮助，请使用以下格式引用：
 
 ```bibtex
-@misc{SeaSageAI_InternLM2,
-    title={SeaSageAI_InternLM},
+@misc{SeaSageAI_InternLM2_5,
+    title={SeaSageAI_InternLM2_5},
     author={wjh2001},
     url={https://github.com/wjh2001/SeaSageAI_InternLM},
     year={2024}
