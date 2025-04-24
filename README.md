@@ -14,14 +14,6 @@ license: Apache License 2.0
 -->
 # SeaSageAI_InternLM2_5
 
-<br />
-<!-- PROJECT LOGO -->
-
-<p align="center">
-  <a href="https://github.com/2001wjh/SeaSageAI_InternLM2_5/">
-    <img src="assets/logo.png" alt="Logo" width="50%">
-  </a>
-
 
 ## 📢 介绍
 
